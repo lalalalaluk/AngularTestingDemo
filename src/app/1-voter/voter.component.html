@@ -2,12 +2,12 @@
     <i 
         class="glyphicon glyphicon-menu-up vote-button"
         [class.highlighted]="myVote == 1" 
-        (click)="upVote()"></i>
+        (click)="upVote()">upvote</i>
         
     <span class="vote-count">{{ totalVotes }}</span>
     
     <i 
         class="glyphicon glyphicon-menu-down vote-button"
         [class.highlighted]="myVote == -1" 
-        (click)="downVote()"></i>
+        (click)="downVote()">downVote</i>
 </div>
